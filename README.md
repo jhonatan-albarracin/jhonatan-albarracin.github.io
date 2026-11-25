@@ -1,39 +1,57 @@
 # jhonatan-albarracin.github.io
 
-POPE · **Portafolio Personal para la Empleabilidad** de Jhonatan Stiven Albarracin Agudelo.
+**POPE** (Portafolio Personal para la Empleabilidad) en construcción. Ya están rellenados `00 · Portada`, `01 · Sobre mí` y `02 · Competencias`; los capítulos 03–06 y el apéndice siguen con huecos por completar.
 
-Sitio estático publicado con GitHub Pages en <https://jhonatan-albarracin.github.io/>. Incluye perfil profesional, competencias, trayectoria, muestras de trabajo, análisis DAFO/CAME, estrategia de marca personal, documentación y contacto.
+Formato: **minimalista suizo**. Rejilla de 12 columnas, tipografía sans en mayúsculas, mucho espacio en blanco, reglas gruesas y un solo acento rojo. Sin tarjetas redondeadas, sombras ni iconos. Paleta: blanco roto, negro y rojo `#b3261e`. Las fichas con barra roja alternan claridad: el capítulo 00 es negro, el 01 blanco y el 02 negro de nuevo.
 
-## Estructura
+## Estructura del sitio
+
+```text
+#portada       00 · Identidad profesional (rellenado: nombre, título, puesto, frase y fecha)
+#sobre-mi      01 · Presentación y objetivo + imagen del diploma (rellenado)
+#competencias  02 · 5 técnicas, 4 personales, 3 autodidactas y evidencia (rellenado)
+#proyectos     03 · Dos fichas de proyecto con seis campos cada una
+#formacion     04 · Titulación, cursos, certificaciones e idiomas
+#experiencia   05 · Prácticas, empleos o colaboraciones
+#contacto      06 · Email, GitHub, LinkedIn, CV y teléfono opcional
+#apendice      A · DAFO/CAME (A1), marca (A2), documentos (A3), referencias (A4)
+```
+
+Todo lo que aparece entre corchetes `[…]` y sobre una línea es un hueco. Sustitúyelo por información real; si algún apartado no aplica, déjalo marcado como “pendiente” en vez de inventar datos.
+
+## Archivos del repositorio
 
 ```text
 .
-├── index.html                     # Portafolio (página principal)
+├── index.html                     # Portafolio (capítulos 00–02 rellenados)
 ├── assets/
-│   ├── css/styles.css             # Sistema visual, responsive, print y accesibilidad
-│   ├── js/main.js                 # Menú móvil y copia de email
-│   └── favicon.svg                # Icono del sitio
-├── robots.txt                     # Instrucciones para buscadores
-├── sitemap.xml                    # URL pública del portafolio
+│   ├── css/styles.css             # Estilo suizo, responsive, print
+│   ├── js/main.js                 # Índice móvil + sección activa al desplazarse
+│   ├── img/diplomaDistinguido.jpg # Prueba del logro del capítulo 01
+│   └── favicon.svg
+├── robots.txt
+├── sitemap.xml
 ├── docs/
-│   ├── POPE.docx                  # Instrucciones originales de la actividad
-│   ├── Rúbrica POPE pdf.pdf       # Rúbrica original del ejercicio
+│   ├── Ficha_practica_Portfolio_IPE_ para hacer un portafolio.pdf  # Guía original
+│   ├── 04_GUIA_FICHA_PRACTICA.md  # Guía transcrita, checklist y reflexión
+│   ├── POPE.docx
+│   ├── Rúbrica POPE pdf.pdf
 │   ├── Rúbrica exposicón  oral del portafolio.docx
-│   ├── CV_Jhonatan_Albarracin.pdf # Original (contiene una entrada ficticia)
-│   ├── CV_Jhonatan_Albarracin_CORREGIDO.md # CV vigente, sin esa entrada
-│   ├── presentación.pdf           # Texto base de la exposición oral
-│   ├── 01_INSTRUCCIONES_POPE.md   # Instrucciones extraídas en Markdown
-│   ├── 02_RUBRICA_POPE.md         # Rúbrica extraída en Markdown
-│   ├── 03_RUBRICA_EXPOSICION.md   # Rúbrica oral extraída en Markdown
-│   ├── GUION_EXPOSICION.md        # Guion cronometrado (~5 min)
-│   └── MATRIZ_EVALUACION.md       # Criterio → evidencia y pendientes
-├── PROCESO.md                     # Bitácora de construcción y mantenimiento
+│   ├── CV_Jhonatan_Albarracin.pdf # Documento histórico (contiene un dato ficticio)
+│   ├── CV_Jhonatan_Albarracin_CORREGIDO.md
+│   ├── presentación.pdf
+│   ├── 01_INSTRUCCIONES_POPE.md
+│   ├── 02_RUBRICA_POPE.md
+│   ├── 03_RUBRICA_EXPOSICION.md
+│   ├── GUION_EXPOSICION.md        # Guion de apoyo (requiere datos rellenos)
+│   └── MATRIZ_EVALUACION.md
+├── PROCESO.md                     # Bitácora, incluye los diseños descartados
 └── README.md
 ```
 
 ## Ver en local
 
-No necesita instalación: es HTML, CSS y JavaScript puro.
+No necesita instalación: HTML, CSS y JavaScript puro, sin fuentes externas.
 
 ```powershell
 python -m http.server 8000
@@ -43,16 +61,17 @@ Abrir <http://localhost:8000/>.
 
 ## Publicar
 
-El repositorio se llama `jhonatan-albarracin.github.io`, por lo que GitHub Pages sirve la rama `main` desde la raíz:
+El repositorio `jhonatan-albarracin.github.io` sirve la rama `main` desde la raíz:
 
 1. Confirmar que `index.html` está en la raíz.
 2. En GitHub: **Settings → Pages → Source → Deploy from a branch → `main` / `(root)`**.
 3. Hacer `git add .`, `git commit` y `git push origin main`.
 4. Comprobar <https://jhonatan-albarracin.github.io/>.
 
-## Antes de compartir el enlace
+## Antes de publicar
 
-- Revisar que los datos personales publicados (teléfono, email y referencias) son los deseados.
-- Usar `docs/CV_Jhonatan_Albarracin_CORREGIDO.md` como base del CV: el PDF original incluye una práctica ficticia ya eliminada.
-- Completar los pendientes indicados en `docs/MATRIZ_EVALUACION.md` y `PROCESO.md`.
-- Ensayar la exposición con `docs/GUION_EXPOSICION.md`.
+- Rellenar los seis capítulos y las dos fichas de proyecto.
+- Completar el apéndice (DAFO/CAME con 6 elementos explicados por bloque, marca, documentos y referencias).
+- Usar `docs/04_GUIA_FICHA_PRACTICA.md` como checklist final.
+- No publicar datos personales innecesarios; el teléfono es opcional.
+- Los commits los hace el usuario.

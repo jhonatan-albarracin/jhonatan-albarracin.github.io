@@ -1,12 +1,12 @@
 # Guion de exposición oral del POPE
 
-> Objetivo: **5 minutos**. Texto base adaptado de `docs/presentación.pdf`, con las fechas corregidas para distinguir formación en curso y experiencia prevista. Se recomienda ensayar tres veces: una leyendo, una cronometrada y una delante de alguien que pregunte al final.
+> **Aviso:** el sitio es ahora una plantilla vacía. Este guion es un texto de apoyo con datos de ejemplo: reescríbelo con tu información cuando hayas rellenado los capítulos. Objetivo: **5 minutos**. Se recomienda ensayar tres veces: una leyendo, una cronometrada y una delante de alguien que pregunte al final.
 
 ---
 
 ## 0:00 – 0:35 · Apertura y tesis
 
-**Qué se muestra en pantalla:** portada del portafolio (`index.html`, sección `#inicio`).
+**Qué se muestra en pantalla:** portada del portafolio (`index.html`, sección `#portada`).
 
 > Buenos días. Me llamo **Jhonatan Stiven Albarracin Agudelo**. Soy ingeniero de sistemas por la Universidad Tecnológica de Pereira y estoy cursando el Grado Superior en Desarrollo de Aplicaciones Web en el CIFP La Laboral, en Gijón. Mi lema es sencillo: **“Ingeniería como base, DAW como especialización”**. Hoy quiero enseñaros tres cosas: quién soy, qué evidencias tengo y mi objetivo: crecer en una multinacional tecnológica.
 
@@ -16,7 +16,7 @@
 
 ## 0:35 – 1:30 · Perfil y competencias
 
-**Qué se muestra:** secciones `#perfil` y `#competencias`.
+**Qué se muestra:** secciones `#sobre-mi` y `#competencias`.
 
 > Mi perfil combina dos mundos. En PETI Soluciones Productivas trabajé seis meses como desarrollador junior: desarrollé y mantuve software en Python, .NET y JavaScript, diseñé operaciones sobre MySQL y PostgreSQL y personalicé módulos en Odoo. También participé en funcionalidades de una plataforma de gestión con ASP.NET en C#.
 >
@@ -28,23 +28,25 @@
 
 ---
 
-## 1:30 – 2:20 · Trayectoria y precisión de fechas
+## 1:30 – 2:20 · Formación, experiencia y precisión de fechas
 
-**Qué se muestra:** sección `#trayectoria` (línea de tiempo).
+**Qué se muestra:** secciones `#formacion` y `#experiencia`.
 
-> La línea de tiempo distingue tres estados: realizado, en curso y objetivo. La ingeniería terminé en 2024 con promedio 4,0 sobre 5 y diploma de Estudiante Distinguido. El grado de DAW está en curso hasta junio de 2027. Como meta profesional aparece incorporarme a una multinacional tecnológica —Indra, Google, Amazon o similar—. No hay prácticas ficticias: un portafolio creíble no exagera lo que ha ocurrido.
+> He separado la formación de la experiencia para que se vea de un vistazo qué estudié y qué hice. La ingeniería terminé en 2024 con promedio 4,0 sobre 5 y diploma de Estudiante Distinguido. El grado de DAW está en curso hasta junio de 2027. Mi experiencia real son seis meses en PETI como desarrollador junior. Como meta profesional aparece incorporarme a una multinacional tecnológica —Indra, Google, Amazon o similar—. No hay prácticas ficticias: un portafolio creíble no exagera lo que ha ocurrido.
 
 ---
 
 ## 2:20 – 3:20 · Muestras de trabajo
 
-**Qué se muestra:** sección `#proyectos`; señalar la vista previa de la tarjeta ancha y las etiquetas de estado.
+**Qué se muestra:** sección `#proyectos`; señalar las dos tarjetas y los huecos marcados en terracota.
 
-> Muestro tres proyectos. El primero es una web de **citas y reservas** en desarrollo: horarios, servicios y reservas para pequeños negocios. Los otros dos son una API REST con Flask y MongoDB, y un juego de triqui en tiempo real con Socket.IO. En todos indico el estado real: formación, no producto terminado.
+> Muestro dos proyectos del ciclo. Cada tarjeta sigue exactamente lo que pide la ficha: qué es y qué problema resuelve, tecnologías, qué parte desarrollé yo y una dificultad con su solución. En esta versión los campos están preparados y los completaré con los detalles reales antes de buscar empleo; enseñar el proceso también es parte del portafolio.
 
 **Conexión con el proyecto personal (del texto original):**
 
-> Ese último proyecto de citas y reservas responde a mi objetivo personal: una herramienta práctica para que pequeños empresarios y profesionales gestionen horarios, servicios y reservas en un solo lugar, con interfaz intuitiva.
+> El proyecto de citas y reservas responde a mi objetivo personal: una herramienta práctica para que pequeños empresarios y profesionales gestionen horarios, servicios y reservas en un solo lugar, con interfaz intuitiva.
+
+> **Antes de exponer:** sustituye este párrafo por los datos reales de los dos proyectos cuando rellenes `#proyectos`.
 
 ---
 
@@ -66,7 +68,7 @@
 
 **Qué se muestra:** secciones `#documentos`, `#referencias` y `#contacto`.
 
-> En la web están el CV, el guion, el proceso de construcción y una matriz que relaciona cada criterio de la rúbrica con su evidencia. También incluyo dos referencias: el profesor Guillermo Roberto Solarte y mi compañero Johan Fernando Acuña.
+> En la web están el CV, la ficha de práctica con su checklist, el guion, el proceso de construcción y una matriz que relaciona cada criterio de la rúbrica con su evidencia. También incluyo dos referencias: el profesor Guillermo Roberto Solarte y mi compañero Johan Fernando Acuña.
 >
 > Cierro con lo mismo que abro: **ingeniería como base, DAW como especialización**. Estoy disponible para prácticas y primeros puestos junior, con el objetivo de llegar a una multinacional como Indra, Google o Amazon. Gracias; estaré encantado de responder preguntas.
 

@@ -48,14 +48,22 @@ Una vez tengas una copia maestra, personalízala para solicitudes de trabajo y e
 
 | Requisito del documento | Dónde se atiende en el sitio |
 | --- | --- |
-| Currículum y datos de contacto | `#perfil`, `#trayectoria`, `#contacto` y PDF del CV |
+> El sitio se ha convertido en **plantilla vacía**: estos son los lugares donde se escribe cada contenido, aún sin datos personales.
+
+| Requisito del documento | Dónde se deja el espacio |
+| --- | --- |
+| Currículum y datos de contacto | `#portada`, `#sobre-mi`, `#formacion`, `#experiencia`, `#contacto` y hueco para el CV en `#documentos` |
 | Habilidades en tres categorías | `#competencias` |
-| Información biográfica | `#perfil` |
-| Títulos, licencias y certificaciones | `#perfil`, `#trayectoria` y `#documentos` |
+| Información biográfica | `#sobre-mi` |
+| Títulos, licencias y certificaciones | `#formacion` y `#documentos` |
 | Referencias y testimonios | `#referencias` |
-| Muestras de trabajo | `#proyectos` |
-| Servicio comunitario | `#referencias` (estado honesto y plan) |
-| Premios y logros | `#competencias` y `#trayectoria` |
-| Organización y tabla de contenido | Cabecera fija con menú y numeración de secciones |
-| Portafolio visual y personalizado | Tarjetas tipo bento incompleto (huevo roto / borgoña / negro), iconos SVG propios y lema de marca personal |
+| Muestras de trabajo | `#proyectos` (dos fichas con seis campos) |
+| Servicio comunitario | `#referencias` (hueco preparado, sin inventar datos) |
+| Premios y logros | `#sobre-mi` y `#formacion` |
+| Organización y tabla de contenido | Índice fijo con 00–06 y apéndice; capítulos numerados |
+| Portafolio visual y personalizado | Minimalismo suizo: rejilla de 12 columnas, blanco roto, negro y acento rojo; líneas en blanco para rellenar |
 | GitHub Pages | Repositorio `jhonatan-albarracin.github.io` |
+
+## Ficha de práctica añadida al repositorio
+
+El documento `docs/Ficha_practica_Portfolio_IPE_ para hacer un portafolio.pdf` se ha transcrito y resumido en `docs/04_GUIA_FICHA_PRACTICA.md`. Esa guía fija los seis apartados mínimos (sobre mí, competencias, proyectos, formación, experiencia y contacto) y la lista de validación; el sitio se ha reorganizado para seguir exactamente ese orden.
